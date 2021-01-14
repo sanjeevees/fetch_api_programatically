@@ -93,6 +93,7 @@ Features:
 - Improve on error handling 
 - It can only handle list of JSON with one layer nested JSON containing a list. Enable it to handle any data format.
 - The schema defined is all varchar, using a libarary to detect each column type and add it programatically
+- Add auth in the api call, currently it is based on the key being passed in the url
 
 <!-- CONTACT -->
 
