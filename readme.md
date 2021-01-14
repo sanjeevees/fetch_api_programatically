@@ -36,7 +36,7 @@ Installing for bash:
 1. Clone this repo
 
 ```sh
-$ git clone https://github.com/harshal2802/fetch_api_programatically.git
+$ git clone https://github.com/sanjeevees/fetch_api_programatically.git
 ```
 
 2. Change directory to above cloned repo
