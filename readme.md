@@ -55,7 +55,13 @@ Running From bash::
 
 ```sh
 #make sure that you are inside project("fetch_api_programatically") directory
-$ python3 --url "https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=kgWJgJ5G3b2l7CpOStlTuquWTw5ugZJi" --tableName "staging_table" --dropTable True
+$ python3 fetch_save_api.py --url "https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=kgWJgJ5G3b2l7CpOStlTuquWTw5ugZJi" --tableName "staging_table" 
+```
+with dropTable
+
+```sh
+#make sure that you are inside project("fetch_api_programatically") directory
+$ python3 fetch_save_api.py --url "https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2020-06-01/2020-06-17?apiKey=kgWJgJ5G3b2l7CpOStlTuquWTw5ugZJi" --tableName "staging_table" --dropTable True
 ```
 
 <!-- Overview -->
