@@ -81,11 +81,11 @@ It is not bounded by the specific api used to create, any api can be passed to i
 
 Features: 
 
-Break the api into multiple calls for print data or only drop table.
-Include a shell script to make multiple calls
-Improve on error handling 
-It can only handle list of JSON with one layer nested JSON containing a list. Enable it to handle any data format.
-The schema defined is all varchar, using a libarary to detect each column type and add it programatically
+- Break the api into multiple calls for print data or only drop table.
+- Include a shell script to make multiple calls
+- Improve on error handling 
+- It can only handle list of JSON with one layer nested JSON containing a list. Enable it to handle any data format.
+- The schema defined is all varchar, using a libarary to detect each column type and add it programatically
 
 <!-- CONTACT -->
 
