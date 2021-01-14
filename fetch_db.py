@@ -27,6 +27,7 @@ def transform_data(data):
     for row in data:
         for key,value in row.items():  
             if  type(value)!=list:
+                print(value)
                 newDict[key] = value
         for key,value in row.items(): 
             if type(value)==list:
@@ -34,7 +35,9 @@ def transform_data(data):
                     newDictTemp = {}
                     for keyNew,valueNew in newDict2.items():
                         newDictTemp[keyNew] = valueNew
-                    newlist.append( {**newDict, **newDictTemp})                
+                    newlist.append( {**newDict, **newDictTemp})   
+        if len(newlist)==0:
+            newlist.append({**newDict})
     return newlist
 
 
