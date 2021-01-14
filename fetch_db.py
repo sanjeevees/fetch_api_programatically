@@ -27,7 +27,6 @@ def transform_data(data):
     for row in data:
         for key,value in row.items():  
             if  type(value)!=list:
-                print(value)
                 newDict[key] = value
         for key,value in row.items(): 
             if type(value)==list:
